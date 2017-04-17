@@ -1,0 +1,77 @@
+{
+  "greetings": [
+    {
+      "message1": "Hi! Japanese Graphic Designer Here!",
+      "message2": "Yuta Imaizumi",
+      "message3": "About Me"
+    }
+  ],
+
+  "aboutmedetails": [
+    {
+      "message1": "Career",
+      "icon": "fa-address-card",
+      "message2": "5-year graphic designer mainly based in Tokyo, Japan. After graduating a university, I worked for a travel agency as a web content master. There I was into the depth of design and web industry, and started to learn graphic design by myself. Then worked for some design firms in Japan, and now I came here to Canada to study web development academically."
+    },
+    {
+      "message1": "Strength",
+      "icon": "fa-space-shuttle",
+      "message2": "A wide range of graphic design skill, from paper media, web to smartphone and tablet UI. And a skill as an illustrator. I can draw illustrations by a variety of style. I also have experience as an art director, so I can manage whole advertising matters, include making marketing strategies, contents, copy and scenario writing in Japanese."
+    },
+    {
+      "message1": "Mission",
+      "icon": "fa-heart",
+      "message2": "Japanese-style attentiveness to the needs of my clients --- I highly understand that the design works should be the tools by which clients and their customers will fully communicate with each other, not just designers' self-satisfaction. I have confidence to fully communicate with my clients and also satisfy them."
+    }
+  ],
+
+
+
+    "workstitles": [
+    {
+      "message1": "Works"
+    }
+  ],
+
+  "worksdetails": [
+    {
+      "icon": "fa-female",
+      "company": "Beanstalk Snow",
+      "url": "http://www.beanstalksnow.co.jp/aisugiyama/index.html",
+      "urltitle": "Beanstalk Ai Sugiyama Special Events",
+      "imgpath": "./Assets/work1.jpg",
+      "imgalt": "Beanstalk Snow",
+      "workdetail": "Beanstalk Snow Co.Ltd is the company which makes foods and goods for babies. This is the special website featured Japanese professional tennis player Ai Sugiyama. We focused on her way of raising her child. Based on the color of the company logo, I made a cute and cheerful design with parallax effect."
+    },
+    {
+      "icon": "fa-database",
+      "company": "Networld",
+      "url": "https://www.networld.co.jp/netapp/book_clustered/main.htm",
+      "urltitle": "Netapp Ontap7 Database System",
+      "imgpath": "./Assets/work2.jpg",
+      "imgalt": "Networld",
+      "workdetail": "Networld is the IT solution company. This is the landing page for introducing a new storage product \"Clustered Data ONTAP.\" Ordered to make a \"pop and catchy\" design, I suggested unique characters named after the products. The leaflet which you can download on this site also designed by me."
+    },
+    {
+      "icon": "fa-file-image-o",
+      "company": "COMP1002",
+      "url": "http://yuta-fnl.azurewebsites.net/lp/index.html",
+      "urltitle": "COMP1002 Final Assignment Letterpress",
+      "imgpath": "./Assets/work3.jpg",
+      "imgalt": "COMP1002",
+      "workdetail": "The final assignment of COMP1002 (Web and Internet Fundamentals, by Mr. McCrindle) last semester. \"Making a small website promoting an actual product that was on the market before the Internet.\" I chose a letterpress and featured the beauty of paper crafts with Christmas design."
+    }
+  ],
+
+
+  "contacts": [
+    {
+      "message1": "Contact",
+      "icon": "fa-envelope",
+      "message2": "Mail Form",
+      "message3": "Please feel free to contact me for any questions! ( *... Mandatory)"
+    }
+  ]
+
+
+}

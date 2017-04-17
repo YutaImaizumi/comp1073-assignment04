@@ -1,0 +1,160 @@
+/* This is my original CSS data of whole pages (Assignment 4). 
+    File name : app.css
+    Author's name : Yuta Imaizumi #200333869
+    Web site name : Yuta Imaizumi Portfolio */
+
+
+/* main decoration */
+
+body {
+	background:
+		-webkit-linear-gradient(45deg, hsla(254, 96%, 44%, 1) 0%, hsla(254, 96%, 44%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(154, 96%, 49%, 1) 10%, hsla(154, 96%, 49%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(179, 91%, 45%, 1) 10%, hsla(179, 91%, 45%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(240, 96%, 47%, 1) 100%, hsla(240, 96%, 47%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(254, 96%, 44%, 1) 0%, hsla(254, 96%, 44%, 0) 70%),
+		linear-gradient(135deg, hsla(154, 96%, 49%, 1) 10%, hsla(154, 96%, 49%, 0) 80%),
+		linear-gradient(225deg, hsla(179, 91%, 45%, 1) 10%, hsla(179, 91%, 45%, 0) 80%),
+		linear-gradient(315deg, hsla(240, 96%, 47%, 1) 100%, hsla(240, 96%, 47%, 0) 70%);
+    font-family: Georgia, "Times New Roman", serif;
+    color: white;
+    font-size: 18px;
+}
+
+#greeting {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000080;
+    margin-top: 90px;
+    margin-bottom: 30px;  /* h1 */
+}
+#myname {
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px #000080;
+    margin-top: 0px;
+    margin-bottom: 70px;  /* h1 */
+}
+
+h2 {
+    font-size: 2.4em;
+    text-shadow: 1px 1px 2px #000080;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: Helvetica, arial, sans-serif;
+}
+
+/* footer to bottom of pages*/
+
+#footerToBottom {
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+}
+
+#container { 
+  color : dimgray;
+  margin-right: auto;
+  margin-left : auto;
+  width:960px;
+}
+
+/* image size setting */
+#logo {
+    width: 130px;
+}
+
+#mepic {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  box-shadow: 5px 5px 10px #000080;
+}
+
+#worksimg {
+    width: 100%;
+}
+
+/* 3 column portion wide adjust */
+
+.adjust-y {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* main texts set to center */
+
+#content{
+    text-align: center;
+}
+
+#footercr {
+    text-align: center;
+}
+
+/* set whole icon by font awesome to center */
+#iconcentr {
+    text-align: center;
+    margin: 0px;
+}
+
+/* Link colors (set to all pages) */
+a:link { 
+    color: white; 
+}
+a:visited { 
+    color: white; 
+}
+a:hover { 
+    text-decoration: none;
+    color: #ffffb7; 
+    filter: alpha(opacity=70);
+    -moz-opacity:0.70;
+    opacity:0.70;
+}
+a:active { 
+    color: white; 
+}
+
+/* Link colors (send button only)*/
+#sendbtn:link { 
+    color: dimgray; 
+}
+#sendbtn:visited { 
+    color: dimgray; 
+}
+#sendbtn:hover { 
+    text-decoration: none;
+    color: darkslategray; 
+    filter: alpha(opacity=70);
+    -moz-opacity:0.70;
+    opacity:0.70;
+}
+#sendbtn:active { 
+    color: dimgray; 
+}
+
+
+/* form layout adjusting */
+#mandatory {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px; 
+    margin-bottom: 40px;
+}
+
+#disclaimer {
+    text-align: center;
+}
