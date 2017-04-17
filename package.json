@@ -1,0 +1,23 @@
+{
+  "name": "comp1073-w2017-assignment04",
+  "version": "1.0.0",
+  "description": "javascript-banner-ad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YutaImaizumi/comp1073-assignment04.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript"
+  ],
+  "author": "yuta imaizumi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YutaImaizumi/comp1073-assignment04/issues"
+  },
+  "homepage": "https://github.com/YutaImaizumi/comp1073-assignment04#readme"
+}

@@ -158,3 +158,13 @@ a:active {
 #disclaimer {
     text-align: center;
 }
+
+
+/* banner */
+#banner01 {
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid black;
+}
