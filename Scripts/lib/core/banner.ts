@@ -47,18 +47,39 @@
             stage.update();
 
 
+// createjs.Tween.get(bitmap1) 
+//         .to({x: 0, y: 60, alpha: 0.1}, 2000)
+//         .to({x: 0, y: 0, alpha: 1.0}, 2000);
+
+        // createjs.Tween.get(bitmap3) // ターゲットを指定
+        // // 画面右下へ移動
+        // .to({x: 0, y: 0, alpha: 0.1}, 2000)
+        // // 画面中央上へ移動
+        // .to({x: 0, y: -60, alpha: 1.0}, 2000);
+        // stage.update();
+
+
+
             createjs.Ticker.addEventListener("tick", handleTick);
             function handleTick(){
-
-                bitmap1.y += 0.2;
-                bitmap3.y += 0.2;
-                t.y += 0.2;
-                t2.y += 0.2;
-                stage.update();
+                    if (bitmap1.y <= 60){
+                            bitmap1.y += 0.6;
+                            bitmap3.y += 0.6;
+                            t.y += 0.6;
+                            t2.y += 0.6;
+                            stage.update();
+                    }else{
+                        bitmap1.y = 0;
+                        bitmap3.y = -60;
+                        t.y = 17;
+                        t2.y = -43;
+                        stage.update();
+                    }
+                }
             }
 
 
-        }
+        
 
 
  
