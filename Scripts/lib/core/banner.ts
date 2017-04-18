@@ -34,7 +34,7 @@
             var t = new cj.Text("Cute, Trad, Japanese Candies", "24px sans-serif", "black");
             t.textAlign = "start";
             t.y = 17;
-            t.x = 5;
+            t.x = 10;
             stage.addChild(t);
             stage.update();
 
@@ -42,7 +42,7 @@
             var t2 = new cj.Text("Homemade, Sweet, Try this!", "24px sans-serif", "black");
             t2.textAlign = "start";
             t2.y = -43;
-            t2.x = 5;
+            t2.x = 10;
             stage.addChild(t2);
             stage.update();
 
@@ -64,14 +64,22 @@
             function handleTick(){
                     if (bitmap1.y <= 60){
                             bitmap1.y += 0.6;
-                            bitmap3.y += 0.6;
                             t.y += 0.6;
+                            stage.update();
+                    }else{
+                        bitmap1.y = -60;
+                        t.y = -43;
+                        // stage.update();
+                    }
+                // }
+            // createjs.Ticker.addEventListener("tick", handleTick);
+            // function handleTick(){
+                    if (bitmap3.y <= 60){
+                            bitmap3.y += 0.6;
                             t2.y += 0.6;
                             stage.update();
                     }else{
-                        bitmap1.y = 0;
                         bitmap3.y = -60;
-                        t.y = 17;
                         t2.y = -43;
                         stage.update();
                     }
